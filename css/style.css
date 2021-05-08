@@ -269,8 +269,8 @@ p{
 	line-height:normal;
 }
 .padding{
-	padding-bottom:90px;
-	padding-top:90px;
+	padding-bottom:2px;
+	padding-top:2px;
 }
 .padding-top{
 	padding-top:90px;
@@ -411,7 +411,7 @@ p{
 	border:1px solid #ffb600;
 }
 .yellow, .btn_common.blue:after, .btn_common.white_border:after{
-	background:#ffb600
+	background:#4587d9
 }
 .white_border{
 	border:1px solid #fff;
@@ -1338,7 +1338,7 @@ nav.navbar.bootsnav.navbar-fixed #menu_bars{
 	 text-transform:capitalize;
 }
 .pushmenu .push_nav > li > a > span{
-  color: #ffb600;
+  color: #ffffff;
   display: inline-block;
   font-size: 20px;
   vertical-align: middle;
@@ -1358,10 +1358,10 @@ nav.navbar.bootsnav.navbar-fixed #menu_bars{
     margin:0 0 0 15px;
     border-radius: 0;
     border: none;
-    background-color:#fff;
+    background-color:#202020;
 }
 .pushmenu  .push_nav .dropdown-menu li a{ display:block; color: #000;}
-.pushmenu  .push_nav .dropdown-menu li:first-child a{ border-top:1px solid #e1e1e1;}
+.pushmenu  .push_nav .dropdown-menu li:first-child a{ border-top:1px solid #202020;}
 .pushmenu  .social_icon{ position:absolute; bottom:0; left:40px; right:0;}
 
 body.pushmenu-push-toleft .wrap-sticky nav.navbar.bootsnav.navbar-sticky,
@@ -1870,10 +1870,10 @@ body.pushmenu-push-toright .wrap-sticky nav.navbar.bootsnav.sticked{
 .pricing_item .pricing_price{
 	font-size: 2em;
 	padding: 0.5em 0 0.75em;
-	border-top:1px solid rgba(139, 144, 157, 0.18);
+	border-top:1px solid rgb(255, 255, 255);
 }
 .pricing_item .pricing_price, .pricing_item .pricing_sentence{
-	color:#5b5b5b;
+	color:#ffffff;
 }
 .pricing_item .pricing_currency{
 	font-size: 0.5em;
@@ -1881,12 +1881,12 @@ body.pushmenu-push-toright .wrap-sticky nav.navbar.bootsnav.sticked{
 }
 .pricing_item .pricing_sentence{
 	padding-bottom:0.5em;
-	border-bottom:1px solid rgba(139, 144, 157, 0.18);
+	border-bottom:1px solid rgb(255, 255, 255);
 }
 .pricing_list {
 	font-size:14px;
 	padding:25px 0;	
-	color: #5b5b5b;
+	color: #ffffff;
 }
  .pricing_list li{
 	margin-bottom:8px;
@@ -1897,7 +1897,7 @@ body.pushmenu-push-toright .wrap-sticky nav.navbar.bootsnav.sticked{
 	display: inline-block;
    margin-right:10px;
    vertical-align: middle;
-	color:#ffb600;
+	color:#201daf;
 }
 .pricing_item a{
 	display:block;
@@ -1907,7 +1907,7 @@ body.pushmenu-push-toright .wrap-sticky nav.navbar.bootsnav.sticked{
 	padding:13px 20px;
 }
 .pricing_item.active:hover a, .pricing_item:hover a{ 
-  background:#ffb600;
+  background:#201daf;
 }
 .pricing_item.active a{ 
   background:#4587d9;
@@ -2837,7 +2837,70 @@ nav.navbar.bootsnav #menu_bars{
 .navbar-fixed.white.no-background{ top:auto;}	
 .navbar-fixed.white{ top:0;}
 
+.mbr-fullscreen .mbr-overlay {
+	min-height: 100vh;
+  }
+  
+  .mbr-fullscreen {
+	display: flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	min-height: 100vh;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+  }
+  
+  .overlayimage1 {
+	min-height:100%;
+	height:100vh;
+	background:url(images/pexels-thisisengineering-3912474.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100%;
+	box-shadow:inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+  }
 
+  #element-with-background-image1 {
+	background-image:url(../images/pexels-thisisengineering-3912474.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
+  
+ #color-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(31, 29, 29);
+	opacity: 0.25;
+ }
 
+ .text-block {
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+	text-align: center;
 
+ }
 
+ .text-block2 {
+	background-color: rgb(31, 29, 29);
+	color: white;
+	opacity: 0.9;
+	text-align: center;
+
+ }
+
+ #element-with-background-image2 {
+	background-image:url(../images/pexels-thisisengineering-3912474.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+ }
